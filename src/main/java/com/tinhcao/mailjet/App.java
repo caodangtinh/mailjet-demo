@@ -26,10 +26,10 @@ public class App {
                 .put(new JSONObject().put(Contact.EMAIL, "littlesnail18@gmail.com"));
 
         email = new MailjetRequest(Email.resource)
-                .property(Email.FROMNAME, "Guillaume")
-                .property(Email.FROMEMAIL, "dummy@email.fr")
-                .property(Email.SUBJECT, "Subject")
-                .property(Email.TEXTPART, "Java is coming!...")
+                .property(Email.FROMNAME, "tinhcao")
+                .property(Email.FROMEMAIL, "caodangtinh@gmail.com")
+                .property(Email.SUBJECT, "Activate your account")
+                .property(Email.TEXTPART, "Please active your account : http://active.com?token=yNjU2ZjljZDY0NWI1ODdiMjA0ZDU2YTE5M2ZkMWZiZWI1Zg")
                 .property(Email.RECIPIENTS, recipients)
                 .property(Email.MJCUSTOMID, "JAVA-Email");
 
